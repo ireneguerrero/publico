@@ -1,4 +1,36 @@
-p1{
+#p1{
     background-image: url("fondoeditado.jpg");
     align-content: center;
 }
+
+li { /* estilo del botón */
+    display: inline-block;
+    width: 5%;
+    height: 2em;
+    background-color: rgb(255, 224, 253);
+    border-radius: 5px;
+    margin: 5px;
+    border-width: 0px 2px 2px 0px;
+    border-color: plum;
+    border-style: solid;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: xx-large;
+    box-shadow: 2px 2px rgb(229, 143, 255);
+}
+
+#seleccionado {
+    box-shadow: 2px 2px rgb(229, 143, 255) inset;
+}
+
+li#seleccionado {
+    background-color: rgb(251, 212, 255);
+}
+
+#titulopag1{
+    width:70%;
+    height:15vh;
+    background-color: rgba(255, 193, 244, 0.574);
+    text-align: center;
+}
+
