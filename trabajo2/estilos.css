@@ -1,6 +1,6 @@
-#p1{
+*{
     background-image: url("fondoeditado.jpg");
-    align-content: center;
+    
 }
 
 li { /* estilo del botón */
