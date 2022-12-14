@@ -1,6 +1,12 @@
-*{
-    background-image: url("fondoeditado.jpg");
-    
+#p1{
+    background-image: url("fondopag1.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+#p2{
+    background-image: url("fondopag2.jpg");
+    background-repeat: no-repeat;
 }
 
 li { /* estilo del botón */
@@ -30,10 +36,7 @@ li#seleccionado {
 #titulopag1{
     width:70%;
     height:15vh;
-    background-color: rgba(255, 193, 244, 0.574);
+    background-color: rgba(255, 193, 244, 0.923);
     text-align: center;
 }
 
-#gif{
-    align-self: center;
-}
