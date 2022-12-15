@@ -5,8 +5,9 @@
 }
 
 #p2{
-    background-image: url("fondopag2.jpg");
+    background-image: url("kfcanime.jpg");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 li { /* estilo del botón */
