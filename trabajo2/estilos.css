@@ -111,12 +111,12 @@ li#seleccionado {
 
 #dr1{
     background-color: rgba(255, 193, 244, 0.923);
-}
-
-#r1{
-
+    width:400px;
+    height: 440px;
+    text-align: center;
 }
 
 #pr1{
     font-size:large;
 }
+
