@@ -115,8 +115,9 @@ li#seleccionado {
 
 #todo {
     column-count: 3;
-    box-align: center;
-
+    display: flex;
+    justify-content: center;
+    gap:2em;
 }
 
 #dr1 {
