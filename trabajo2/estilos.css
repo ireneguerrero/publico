@@ -38,5 +38,72 @@ li#seleccionado {
     height:15vh;
     background-color: rgba(255, 193, 244, 0.923);
     text-align: center;
+    animation-name: una;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
 }
 
+@keyframes una {
+    from {
+        margin-right: 100%;
+        width: 100%;
+        color:rgb(251, 0, 255);
+    }
+    
+    50% {
+        font-size: 300%;
+        color:rgb(179, 0, 255);
+    }
+
+    to {
+        margin-right: 0%;
+        width: 100%;
+        color:rgb(0, 145, 255);
+    }
+}
+
+#gif{
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-box-back {
+    background-color: #F80DAE;
+    color: white;
+    transform: rotateY(180deg);
+}
