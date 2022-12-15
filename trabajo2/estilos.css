@@ -108,3 +108,15 @@ li#seleccionado {
     color: white;
     transform: rotateY(180deg);
 }
+
+#dr1{
+    background-color: rgba(255, 193, 244, 0.923);
+}
+
+#r1{
+
+}
+
+#pr1{
+    font-size:large;
+}
