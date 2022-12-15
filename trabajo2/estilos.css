@@ -109,6 +109,11 @@ li#seleccionado {
     transform: rotateY(180deg);
 }
 
+#todo{
+    column-count: 3;
+    box-align: center;
+}
+
 #dr1{
     background-color: rgba(255, 193, 244, 0.923);
     width:400px;
@@ -120,3 +125,32 @@ li#seleccionado {
     font-size:large;
 }
 
+#dr2{
+    background-color: rgba(255, 193, 244, 0.923);
+    width:400px;
+    height: 440px;
+    text-align: center;
+}
+
+#pr2{
+    font-size:large;
+}
+
+#dr3{
+    background-color: rgba(255, 193, 244, 0.923);
+    width:400px;
+    height: 440px;
+    text-align: center;
+}
+
+#pr3{
+    font-size:large;
+}
+
+#edu{
+    width: 50%;
+}
+
+#menu{
+    width: 50%;
+}
