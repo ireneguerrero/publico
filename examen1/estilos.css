@@ -40,3 +40,9 @@ div{
     z-index: 1;
 }
 
+p{
+    text-align: center;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
+    
+}
