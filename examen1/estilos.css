@@ -45,15 +45,15 @@ p{
     transition: all 1.5s ease;
     -webkit-transition: all 1.5s ease;
     background-color: transparent;
-    color: red;
-    text-shadow: 1px 1px goldenrod;
+    color: rgb(255, 61, 61);
+    text-shadow: 1px 1px rgb(255, 183, 0);
     font-size: calc(1.2em + 1vw + 1vh);
     font-weight: bold;
     z-index: 2;
 }
 
 p:nth-child(3){
-    color: green;
+    color: rgb(39, 202, 39);
     font-style: italic;
 }
 
