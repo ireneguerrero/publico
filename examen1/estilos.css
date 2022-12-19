@@ -44,5 +44,27 @@ p{
     text-align: center;
     transition: all 1.5s ease;
     -webkit-transition: all 1.5s ease;
-    
+    background-color: transparent;
+    color: red;
+    text-shadow: 1px 1px goldenrod;
+    font-size: calc(1.2em + 1vw + 1vh);
+    font-weight: bold;
+    z-index: 2;
+}
+
+p:nth-child(3){
+    color: green;
+    font-style: italic;
+}
+
+div:active, div:hover{
+    opacity: 1;
+    background-color: rgba(255,255,255,0.15);
+}
+
+@media all and (orientation:landscape){
+    img, div{
+        width: 70vh;
+        margin-left: calc(50vw - 35vh);
+    }
 }
