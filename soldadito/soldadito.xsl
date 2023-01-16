@@ -10,32 +10,55 @@
 				</h2>
 				<xsl:for-each select="cancion/estrofa"/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 				<xsl:for-each select="cancion/estrofa"/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 				<xsl:for-each select="cancion/estrofa"/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 				<xsl:for-each select="cancion/estrofa"/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 				<xsl:for-each select="cancion/estrofa"/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 					<xsl:for-each select="cancion/verso"/>
+						<xsl:value-of select="."/>
 			</body>
 		</html>
 	</xsl:template>
