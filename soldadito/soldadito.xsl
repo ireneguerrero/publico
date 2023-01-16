@@ -8,6 +8,34 @@
 				<h2>
 					<xsl:value-of select="cancion/titulo"/>
 				</h2>
+				<xsl:for-each select="cancion/estrofa"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+				<xsl:for-each select="cancion/estrofa"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+				<xsl:for-each select="cancion/estrofa"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+				<xsl:for-each select="cancion/estrofa"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+				<xsl:for-each select="cancion/estrofa"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
+					<xsl:for-each select="cancion/verso"/>
 			</body>
 		</html>
 	</xsl:template>
